@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/equalto"
+        android:icon="@drawable/equalto_selector"
+        app:showAsAction="ifRoom"
+        android:title="@string/equalto"/>
+    <item android:id="@+id/more"
+        android:icon="@drawable/more_selector"
+        app:showAsAction="always"
+        android:title="@string/more"/>
+    <item android:id="@+id/home"
+        android:icon="@drawable/home_selector"
+        app:showAsAction="always"
+        android:title="@string/home"/>
+</menu>
